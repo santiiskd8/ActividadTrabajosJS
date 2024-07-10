@@ -1,0 +1,15 @@
+//En el club de Monte Grande tiene dentro de un array los deportes futbol y basquet , dentro del array del club, añadir como principal deporte voley y lo muestre primero en el array.
+
+// Array inicial de deportes en el club de Monte Grande
+let deportesClubMonteGrande = ["futbol", "basquet"];
+
+// Función para añadir un nuevo deporte como principal al inicio del array
+function añadirDeportePrincipal(deporte) {
+    deportesClubMonteGrande.unshift(deporte);
+}
+
+// Añadir el deporte "voley" como principal
+añadirDeportePrincipal("voley");
+
+// Mostrar el array actualizado en la consola
+console.log(deportesClubMonteGrande); // ['voley', 'futbol', 'basquet']
