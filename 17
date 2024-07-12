@@ -1,0 +1,13 @@
+/*Martha tiene un array empleados que contiene objetos con información de cada empleado. Quiere encontrar al  empleado cuyo salario sea mayor o igual a 50000. Porque se vienen los recortes de salario :(-*/
+let empleados = [
+    { nombre: "Juan", salario: 45000 },
+    { nombre: "María", salario: 55000 },
+    { nombre: "Pedro", salario: 48000 },
+    { nombre: "Ana", salario: 30000 }
+];
+
+// Usar find() para encontrar el primer empleado con salario >= 50000
+let empleado = empleados.find(emp => emp.salario >= 50000);
+
+// Mostrar el empleado encontrado en la consola
+console.log("El primer empleado con salario mayor o igual a 50000 es:", empleado);
