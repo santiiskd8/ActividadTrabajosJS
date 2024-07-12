@@ -1,0 +1,8 @@
+/*Martha tiene un array puntuaciones que contiene puntajes de jugadores en un juego. Quiere encontrar el índice del primer jugador que tenga una puntuación mayor o igual a 80, para un torneo que esta preparando entre los mejores. */
+let puntuaciones = [65, 72, 87, 93, 60];
+
+// Usar findIndex() para encontrar el índice del primer jugador con puntuación >= 80
+let indice = puntuaciones.findIndex(puntuacion => puntuacion >= 80);
+
+// Mostrar el índice en la consola
+console.log("El índice del primer jugador con puntuación >= 80 es: " + indice);
