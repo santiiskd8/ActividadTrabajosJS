@@ -1,0 +1,8 @@
+/*Martha tiene un array numeros y quiere multiplicar cada número por 2 y luego obtener un array plano con los resultados. */
+let numeros = [1, 2, 3, 4, 5];
+
+// Usar flatMap() para multiplicar cada número por 2 y obtener un array plano
+let resultado = numeros.flatMap(num => [num * 2]);
+
+// Mostrar el array resultante en la consola
+console.log(resultado);
