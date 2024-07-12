@@ -1,0 +1,9 @@
+/*Rodolfo quiere saber en que posición se encuentra el deporte "voley"
+ya que paso mucho tiempo desde la ultima vez que vio el array Deportes*/
+let deportesClubMonteGrande = ["futbol", "voley", "basquet", "tenis"];
+
+// Usar indexOf() para encontrar la posición de "voley"
+let posicion = deportesClubMonteGrande.indexOf("voley");
+
+// Mostrar la posición en la consola
+console.log(posicion); 
