@@ -1,0 +1,9 @@
+/*A martha le gustaria ver los ultimos deportes que hay en el array.*/
+
+let deportesClubMonteGrande = ["futbol", "voley", "basquet", "tenis"];
+
+// Obtener los últimos dos deportes del array
+let ultimosDeportes = deportesClubMonteGrande.slice(-2);
+
+// Mostrar el nuevo array en la consola
+console.log(ultimosDeportes); // ['basquet', 'tenis']
