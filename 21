@@ -1,0 +1,9 @@
+/*Martha quiere convertir el array Deportes en una sola cadena donde cada deporte esté separado por comas.*/
+
+let DeportesClubMonteGrande = ["futbol", "voley", "basquet", "tenis"];
+
+// Usar join() para unir todos los deportes en una cadena separada por comas
+let cadenaDeportes = DeportesClubMonteGrande.join(", ");
+
+// Mostrar el resultado en la consola
+console.log(cadenaDeportes);
