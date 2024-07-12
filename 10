@@ -1,0 +1,9 @@
+/*Rodolfo quiere crear un nuevo array que solo contenga los deportes cuyo nombre tiene más de 5 caracteres a partir del array deportesClubMonteGrande.*/
+
+let deportesClubMonteGrande = ["futbol", "voley", "basquet", "tenis"];
+
+// Crear un nuevo array que solo contenga deportes con nombres de más de 5 caracteres
+let deportesLargos = deportesClubMonteGrande.filter(deporte => deporte.length > 5);
+
+// Mostrar el nuevo array en la consola
+console.log(deportesLargos); // ['futbol', 'basquet']
