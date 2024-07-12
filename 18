@@ -1,0 +1,9 @@
+/*Martha quiere verificar siendo "voley" sigue estando en el array por que teme que Rodolfo lo saco del array.*/
+
+let deportesClubMonteGrande = ["futbol", "voley", "basquet", "tenis"];
+
+// Usar includes() para verificar si el array incluye "voley"
+let incluyeVoley = deportesClubMonteGrande.includes("voley");
+
+// Mostrar el resultado en la consola
+console.log("¿El array incluye 'voley'?", incluyeVoley);
