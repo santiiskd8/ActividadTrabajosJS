@@ -1,3 +1,4 @@
+/*Martha quiere saber la suma de todos los salarios de sus empleados.*/
 let sueldos = [
     { nombre: "Juan", salario: 45000 },
     { nombre: "María", salario: 55000 },
