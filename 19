@@ -1,0 +1,9 @@
+/*Martha tiene un array con las edades de los jugadores de voley , quiere verificar si al menos hay uno que tiene 18 o más edad ,para poder enviar a la liga profesional.*/
+
+let edadesVoley = [16, 21, 14, 25, 19];
+
+// Usar some() para verificar si hay al menos un miembro mayor de 18 años
+let Mayor = edadesVoley.some(edad => edad > 18);
+
+// Mostrar el resultado en la consola
+console.log("¿Hay algún miembro mayor de 18 años?", Mayor); 
