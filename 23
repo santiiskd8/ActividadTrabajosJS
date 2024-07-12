@@ -1,0 +1,12 @@
+/*Martha quiere saber los nombres de sus empleados y el sueldo de cada uno.*/
+let sueldos = [
+    { nombre: "Juan", salario: 45000 },
+    { nombre: "María", salario: 55000 },
+    { nombre: "Pedro", salario: 48000 },
+    { nombre: "Ana", salario: 60000 }
+];
+
+// Mostrar cada empleado junto con su salario usando forEach()
+sueldos.forEach(empleado => {
+    console.log(`${empleado.nombre}: $${empleado.salario}`);
+});
