@@ -1,0 +1,9 @@
+/*Martha tiene un array "notas" que contiene las calificaciones de los estudiantes en un examen de voley. Quiere verificar si todas las notas son mayores o iguales a 60 para determinar si todos aprobaron.*/
+
+let notas = [75, 82, 67, 58, 91];
+
+// Usar every() para verificar si todas las notas son mayores o iguales a 60
+let todasAprobadas = notas.every(nota => nota >= 60);
+
+// Mostrar el resultado en la consola
+console.log("¿Todos los estudiantes aprobaron?", todasAprobadas);
