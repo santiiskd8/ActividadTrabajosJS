@@ -1,0 +1,12 @@
+let sueldos = [
+    { nombre: "Juan", salario: 45000 },
+    { nombre: "María", salario: 55000 },
+    { nombre: "Pedro", salario: 48000 },
+    { nombre: "Ana", salario: 60000 }
+];
+
+// Calcular la suma total de los sueldos
+let sumaSueldos = sueldos.reduce((total, empleado) => total + empleado.salario, 0);
+
+// Mostrar la suma total de los sueldos en la consola
+console.log("La suma total de los sueldos es:", sumaSueldos);
