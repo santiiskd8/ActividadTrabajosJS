@@ -1,0 +1,10 @@
+/*Martha adquirio una pequeña franquicia que tiene "natacion" y "handball" quiere incluirlos al array de deportes, pero esta franquicia ya cuenta con un array propio.*/
+
+let deportesClubMonteGrande = ["futbol", "voley", "basquet", "tenis"];
+let deportesAdicionales = ["natacion", "handball"];
+
+// Combinar los dos arrays usando concat()
+let todosLosDeportes = deportesClubMonteGrande.concat(deportesAdicionales);
+
+// Mostrar el nuevo array combinado en la consola
+console.log(todosLosDeportes);
