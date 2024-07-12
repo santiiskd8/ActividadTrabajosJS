@@ -1,0 +1,8 @@
+/*Martha tiene un array deportesAnidados que contiene arrays de deportes. Quiere "aplanar" este array para obtener una lista plana de todos los deportes.*/
+let deportesAnidados = [["futbol", "voley"], ["basquet", "tenis"], ["natacion", "gimnasia"]];
+
+// Aplanar el array de arrays usando flat()
+let todosLosDeportes = deportesAnidados.flat();
+
+// Mostrar la lista plana de deportes en la consola
+console.log(todosLosDeportes); 
